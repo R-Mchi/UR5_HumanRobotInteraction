@@ -32,3 +32,10 @@ There are several commands, including:\
 control.py for the main code to control movements and post relay from the program
 captured_text.txt as a temporary storage for commands (similar to a cache)
 
+```python
+import streamlit as st
+
+video_file = open('UR5_HumanRobotInteraction/demo_hri_github.mp4', 'rb')
+video_bytes = video_file.read()
+
+st.video(video_bytes)
