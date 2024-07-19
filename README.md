@@ -32,10 +32,8 @@ There are several commands, including:\
 control.py for the main code to control movements and post relay from the program
 captured_text.txt as a temporary storage for commands (similar to a cache)
 
-```python
-import streamlit as st
-
-video_file = open('UR5_HumanRobotInteraction/demo_hri_github.mp4', 'rb')
-video_bytes = video_file.read()
-
-st.video(video_bytes)
+```html
+<video width="600" controls>
+  <source src="UR5_HumanRobotInteraction/demo_hri_github.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
