@@ -17,7 +17,7 @@
 ## Description
 Robot controlled using speech recognition from Android and then sending it to a laptop program. The purpose of the robot is to be controlled using speech recognition and to pick up 3 items: a box, a bottle, and a Remote, then give them to the user. The location of each item is fixed without using additional sensors, as well as the location of the user.
 
-There are several commands, including:
+There are several commands, including:\
 "Buka" to open the gripper\
 "Tutup" to close the gripper\
 "Siap" to move to the main position when the robot is usually first turned on\
